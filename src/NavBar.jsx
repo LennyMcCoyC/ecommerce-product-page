@@ -55,7 +55,7 @@ export function NavBar({ cartOpen, handleCartOpen, itemCount, handleDelete }) {
                   <p className="cart-item-price">
                     $125.00
                     <span id="cart-count"> x {itemCount}</span>
-                    <span id="cart-sum"> ${125 * itemCount}</span>
+                    <span id="cart-sum"> ${125 * itemCount}.00</span>
                   </p>
                 </div>
                 <img
